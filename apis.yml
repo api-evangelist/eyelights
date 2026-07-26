@@ -1,7 +1,18 @@
 aid: eyelights
 name: EyeLights
-description: EyeLights is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EyeLights is a French deep-tech company building augmented reality head-up
+  display (HUD) technology for riders and pilots. Its products project GPS
+  navigation, speed, intercom, radar and call information into the rider's line
+  of sight: EyeRide, a universal HUD accessory compatible with any motorcycle
+  helmet; the GT-AIR 3 Smart, an integrated head-up display visor built into a
+  SHOEI helmet; the APEX HUD glasses for general aviation; and Pulse Ultra, a
+  universal Bluetooth intercom. The company sells direct-to-consumer through a
+  Shopify storefront at eye-lights.com and runs customer support on Odoo. This
+  profile was added to the API Evangelist network as a Techstars portfolio lead;
+  EyeLights publishes no public developer API, SDK, or documentation surface at
+  this time, so this record captures its consumer web, identity, and security
+  posture rather than an API contract.
 url: https://raw.githubusercontent.com/api-evangelist/eyelights/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://eye-lights.com/cdn/shop/files/logo.png
 tags:
 - Company
+- Augmented Reality
+- Head-Up Display
+- Wearables
+- Hardware
+- Motorcycle
+- Aviation
+- Navigation
+- Consumer Electronics
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://eye-lights.com/
+- type: PrivacyPolicy
+  url: https://eye-lights.com/pages/notre-politique-de-confidentialite
+- type: TermsOfService
+  url: https://eye-lights.com/pages/nos-cgv
+- type: Support
+  url: https://eyelights.odoo.com/contact
+- type: Login
+  url: https://eye-lights.com/account
+- type: DomainSecurity
+  url: security/eyelights-domain-security.yml
+- type: WellKnown
+  url: well-known/eyelights-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

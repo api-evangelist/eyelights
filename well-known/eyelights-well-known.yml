@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://eye-lights.com/.well-known/*
+host: https://eye-lights.com
+note: >-
+  The storefront is hosted on Shopify; the openid-configuration and
+  oauth-authorization-server documents describe Shopify's customer-account
+  OIDC/OAuth surface (issuer https://shopify.com/authentication/11115954234),
+  not a first-party EyeLights API. Captured verbatim as they are served on the
+  eye-lights.com host.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  file: eyelights-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: eyelights-oauth-authorization-server.json
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
