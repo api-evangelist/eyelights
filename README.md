@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EyeLights is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+EyeLights is a French deep-tech company building augmented reality head-up display (HUD) technology for riders and pilots. Its products project GPS navigation, speed, intercom, radar and call information into the rider's line of sight: EyeRide, a universal HUD accessory compatible with any motorcycle helmet; the GT-AIR 3 Smart, an integrated head-up display visor built into a SHOEI helmet; the APEX HUD glasses for general aviation; and Pulse Ultra, a universal Bluetooth intercom. The company sells direct-to-consumer through a Shopify storefront at eye-lights.com and runs customer support on Odoo. This profile was added to the API Evangelist network as a Techstars portfolio lead; EyeLights publishes no public developer API, SDK, or documentation surface at this time, so this record captures its consumer web, identity, and security posture rather than an API contract.
 
-Backed by: techstars — https://eye-lights.com/
+**Areas:** Company · Augmented Reality · Head-Up Display · Wearables · Hardware · Motorcycles · Aviation · Navigation · Consumer Electronics · Techstars
+
+## EyeLights on APIs.io
+
+Everything profiled for EyeLights is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/eyelights/](https://apis.io/providers/eyelights/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Eyelights Domain Security](https://apis.io/security/eyelights/eyelights-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://eye-lights.com/)
+- [Support](https://eyelights.odoo.com/contact)
+- [Terms of service](https://eye-lights.com/pages/nos-cgv)
+- [Privacy policy](https://eye-lights.com/pages/notre-politique-de-confidentialite)
+
+## API Evangelist rating
+
+**Kin Score 12.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 27.6 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/eyelights/](https://apis.io/providers/eyelights/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EyeLights: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/eyelights/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
